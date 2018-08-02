@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myles.simpletimer.SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView3"
+        android:alpha="0.9"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:src="@drawable/rainbow_hourglass_300"
+        app:srcCompat="@drawable/rainbow_hourglass_800"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:text="Timer."
+        android:textColor="@android:color/black"
+        android:textSize="45sp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="By Myles Dawborn"
+        android:textColor="@android:color/black"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="325dp"
+        tools:layout_editor_absoluteY="556dp" />
+</android.widget.RelativeLayout>

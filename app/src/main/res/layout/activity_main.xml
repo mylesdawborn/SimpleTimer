@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myles.simpletimer.MainActivity">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        app:srcCompat="@drawable/rainbow_hourglass_800" />
+
+    <Button
+        android:id="@+id/stopStartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/countdownTimerTextView"
+        android:layout_marginLeft="85dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="120dp"
+        android:onClick="timerEnabler"
+        android:text="start" />
+
+    <TextView
+        android:id="@+id/countdownTimerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/sf_pro"
+        android:text="00:00"
+        android:textColor="@android:color/black"
+        android:textSize="50sp" />
+
+    <SeekBar
+        android:id="@+id/timeSetSeekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stopStartButton"
+        android:layout_alignBottom="@+id/stopStartButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:onClick="resetEnabler"
+        android:text="reset" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timeSetSeekbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+
+</android.widget.RelativeLayout>

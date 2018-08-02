@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ec722c</color>
+    <color name="pale_green">#3bb567</color>
+    <color name="background_material_light">#ffffff</color>
+    <color name="text_color_primary">#2e3a4c</color>
+    <color name="primary_dark_material_light">#999999</color>
+    <color name="accent_material_light">#000000</color>
+    <color name="spaceGrey">#999999</color>
+    <color name="midnightBlue">#2e3a4c</color>
+    <color name="white">#000000</color>
+</resources>
